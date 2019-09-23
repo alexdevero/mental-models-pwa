@@ -12,6 +12,8 @@ import FavoritesScreen from '../screens/favorites-screen'
 import AboutScreen from '../screens/about-screen'
 import SettingsScreen from '../screens/settings-screen'
 
+// import MentalModelOne from './../mental-models/mental-model-01'
+
 const HomeStack = createStackNavigator({
   Home: HomeScreen
 }, {
@@ -24,6 +26,23 @@ HomeStack.navigationOptions = {
     <TabBarIcon
       focused={focused}
       name={Platform.OS === 'ios' ? 'ios-home' : 'md-home'}
+    />
+  )
+}
+
+const ModelsListStack = createStackNavigator({
+  Models: FavoritesScreen,
+  // 'MentalModelOne': MentalModelOne
+}, {
+  headerLayoutPreset: 'center'
+})
+
+ModelsListStack.navigationOptions = {
+  tabBarLabel: 'Models',
+  tabBarIcon: ({ focused }) => (
+    <TabBarIcon
+      focused={focused}
+      name={Platform.OS === 'ios' ? 'ios-brain' : 'md-brain'}
     />
   )
 }
