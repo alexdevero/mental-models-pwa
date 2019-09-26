@@ -1,9 +1,9 @@
 import React from 'react'
 import { Platform } from 'react-native'
 import {
-  createStackNavigator,
   createBottomTabNavigator
-} from 'react-navigation'
+} from 'react-navigation-tabs'
+import { createStackNavigator } from 'react-navigation-stack'
 
 import TabBarIcon from '../components/tab-bar-icon'
 
