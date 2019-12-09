@@ -2,6 +2,8 @@
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
+    "customize": "pnpm expo-electron customize",
+    "desktop": "pnpm expo-electron start",
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
