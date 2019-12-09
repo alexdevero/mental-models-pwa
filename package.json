@@ -20,9 +20,9 @@
     "react-navigation-tabs": "^2.5.5"
   },
   "devDependencies": {
-    "@types/react": "^16.9.2",
-    "@types/react-dom": "^16.9.0",
-    "@types/react-native": "^0.60.15",
+    "@types/react": "^16.9.15",
+    "@types/react-dom": "^16.9.4",
+    "@types/react-native": "^0.60.24",
     "babel-preset-expo": "^5.2.0",
     "typescript": "^3.6.3"
   },
