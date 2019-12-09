@@ -24,7 +24,7 @@
     "@types/react-dom": "^16.9.4",
     "@types/react-native": "^0.60.24",
     "babel-preset-expo": "^5.2.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.7.3"
   },
   "private": true
 }
