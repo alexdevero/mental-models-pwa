@@ -9,7 +9,10 @@
     "eject": "expo eject"
   },
   "dependencies": {
+    "@expo/electron-adapter": "0.0.0-alpha.11",
+    "@expo/webpack-config": "0.10.6",
     "expo": "35.0.1",
+    "electron": "6.0.15",
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "react-native": "https://github.com/expo/react-native/archive/sdk-35.0.0.tar.gz",
@@ -21,7 +24,6 @@
     "react-navigation-tabs": "2.5.5"
   },
   "devDependencies": {
-    "@expo/electron-adapter": "^0.0.0-alpha.11",
     "@types/react": "16.9.15",
     "@types/react-dom": "16.9.4",
     "@types/react-native": "0.60.24",
