@@ -10,3 +10,11 @@ web-build/
 web-report/
 __ignore__/
 *.log
+
+# @generated: @expo/electron-adapter@0.0.0-alpha.11
+/.expo/*
+# Expo Web
+/web-build/*
+# electron-webpack
+/dist
+# @end @expo/electron-adapter
